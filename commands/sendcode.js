@@ -1,5 +1,6 @@
 const { SlashCommandBuilder, EmbedBuilder, Embed } = require('discord.js')
 
+// creates the command for sharing my github profile as qr code.
 module.exports = {
     data: new SlashCommandBuilder()
         .setName("qrcode")
